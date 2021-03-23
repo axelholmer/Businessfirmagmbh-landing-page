@@ -54,3 +54,12 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+
+
+function sendMail() {
+    var name = document.getElementById("name").value;
+    // document.getElementById("demo").innerHTML = x;
+    var message = document.getElementById("message").value;
+    console.log(name)
+  }
