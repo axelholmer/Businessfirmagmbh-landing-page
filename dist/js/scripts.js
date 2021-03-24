@@ -3,6 +3,9 @@
     * Copyright 2013-2021 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
     */
+
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+
     (function ($) {
     "use strict"; // Start of use strict
 
@@ -57,9 +60,9 @@
 
 
 
-function sendMail() {
-    var name = document.getElementById("name").value;
-    // document.getElementById("demo").innerHTML = x;
-    var message = document.getElementById("message").value;
-    console.log(name)
-  }
+
+
+
+// info@businessfirmagmbh.de
+
+
